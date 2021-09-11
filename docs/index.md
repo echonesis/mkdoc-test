@@ -9,6 +9,16 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
 
+## Usages
+- If you want to add some advices, please do the following:
+  ```python
+  import numpy as np
+
+  test_df = np.array([[1, 2],
+                      [3, 4]])
+  ```
+  For further details, please refer to [this page](./test/test.md).
+
 ## Project layout
 
     mkdocs.yml    # The configuration file.
